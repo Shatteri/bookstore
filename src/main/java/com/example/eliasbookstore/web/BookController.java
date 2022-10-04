@@ -17,6 +17,11 @@ import com.example.eliasbookstore.domain.BookRepository;
 import com.example.eliasbookstore.domain.CategoryRepository;
 @Controller
 public class BookController {
+
+	@RequestMapping(value="/login")
+    public String login() {	
+        return "login";
+    }	
 	
 	@Autowired
 	private BookRepository brepository;
