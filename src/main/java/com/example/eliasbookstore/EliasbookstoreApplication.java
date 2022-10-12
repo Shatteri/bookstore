@@ -31,8 +31,8 @@ public class EliasbookstoreApplication {
 			brepository.save(new Book("Third Author", "Third Title", 2003, "123456-7890", 50, crepository.findByName("FirstCategory").get(0)));
 			brepository.save(new Book("Fourth Author", "Fourth Title", 2004, "123456-7890", 50, crepository.findByName("FirstCategory").get(0)));
 
-			//urepository.save(new User("user", "$2y$10$iyEr.tfpe9q2NrY0B9ayAeVsd4ljb5VHP8y/ioV/rFXrz2fv624yG", "USER"));
-			//urepository.save(new User("admin", "$2y$10$6P79CpftG0MpMstXlAgieuIZA3fRCD89iXHc8L6zTAcTLPyxjDAse", "ADMIN"));
+			urepository.save(new User("user", "$2y$10$iyEr.tfpe9q2NrY0B9ayAeVsd4ljb5VHP8y/ioV/rFXrz2fv624yG", "USER"));
+			urepository.save(new User("admin", "$2y$10$6P79CpftG0MpMstXlAgieuIZA3fRCD89iXHc8L6zTAcTLPyxjDAse", "ADMIN"));
 		};
 	}
 }
