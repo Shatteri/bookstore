@@ -2,7 +2,9 @@ package com.example.eliasbookstore.domain;
 
 import javax.persistence.*;
 
+
 @Entity
+@Table(name="usertable")
 public class User {
 
     @Id
